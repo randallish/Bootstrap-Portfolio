@@ -20,8 +20,9 @@
 	position: absolute;
 	width: 270px;
 	box-sizing:border-box;
-	border: 1px solid #dddddd;
-	margin: 300px 60px 100px 950px;
+	border: 1px solid;
+	margin: 100px 60px 100px 950px;
+	padding: 20px 35px 20px 20px;
 }
 
 .img-responsive {
@@ -38,11 +39,65 @@
 	margin-top: 100px;
 }
 
-.nav-container {
+.navbar-brand {
+	font-size: 55px;
+	padding-left: 40px;
+}
+
+.form-container {
+	margin:180px 40px 50px 55px;
+	border:1px solid;
+	padding-left: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 50%;
+}
+
+.form-group {
+	width: 400px;
+}
+
+.footer-bottom {
+	bottom:0;
+	text-align: center;
+}
+
+.text-xs-center{
 	color:white;
 }
 
 
+
+.about-me-container {
+	margin-top: 180px;
+	margin-left: 90px;
+	width:650px;
+	padding-bottom: 75px;
+	padding-left: 60px;
+}
+
+.about-me-text{
+	margin-left: 40px;
+	font-size: 15px;
+}
 body {
 	background-color:#dddddd;
+}
+
+
+h1 {
+	border-bottom: 1px solid;
+	width: 90%;
+	padding-bottom: 20px;
+	margin-top: 25px;
+	color:black;
+}
+
+
+h2 {
+	border-bottom:1px solid;
+	width: 90%;
+	padding-bottom:20px;
+	margin-left:15px;
+	text-align:center;
 }
