@@ -1,0 +1,48 @@
+.jumbotron {
+	float:left;
+	width: 30%;
+	margin-top: 30px;
+	padding: 10px 15px 10px 30px;
+	background-color: #dddddd;
+
+}
+
+
+.my-navbar {
+	float:right;
+	margin: 40px 30px 20px 40px;
+	width:20%;
+	padding-left: 25px;
+
+}
+
+.bg-3 {
+	position: absolute;
+	width: 270px;
+	box-sizing:border-box;
+	border: 1px solid #dddddd;
+	margin: 300px 60px 100px 950px;
+}
+
+.img-responsive {
+	width: 100%;
+}
+
+
+.pictures {
+	position: relative;
+}
+
+.portfolio {
+	position: absolute;
+	margin-top: 100px;
+}
+
+.nav-container {
+	color:white;
+}
+
+
+body {
+	background-color:#dddddd;
+}
